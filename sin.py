@@ -52,7 +52,7 @@ class Perceptron():
 
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Sin-NN")
+pygame.display.set_caption("Perceptron Training Visualization")
 clock = pygame.time.Clock()
 
 def generate_dataset():
